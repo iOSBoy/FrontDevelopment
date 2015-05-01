@@ -1,0 +1,63 @@
+##HTML 学习笔记
+
+### *.htm 和*.html 有啥区别?
++ .htm与.html没有本质上的区别，表示的是同一种文件，只是适用于不同的环境之下。
++ DOS仅能识别8+3的文件名，所以*.htm的命名方法可以被DOS识别，而*.html的文件命名方式不能被识别。
++ 在UNIX系统中，网页必须使用.html扩展名，如果是htm，在浏览器中打开时则出现源代码；Windows中支持两种扩展名。也可以说，htm和html是Windows和UNIX对抗的产物。
++ 如果在网页中同时存在index.html与index.htm，这时浏览器将先解释index.html。
++ .shtml是一种用于SSI（Server Side Include，服务器端包含）技术的文件，是WEB在服务器提供的一种功能，并且在服务器端执行。一般说来，要完成较复杂的任务（如：聊天室／留言本等），必须设计专门的CGI或ASP程序；但是如果只是想给网页加上简单的功能(如：显示一篇文档，web服务器环境变量，关于该文档的更新日期／大小等)，则只要SSI就可以完成了。
+
+###xhtml与html的关系?
+
+###doctype?
++ 有3种模式Strict【严格】、Transitional【过度】 以及 Frameset【松散】。
++ <!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 【Strict| Transitional| Frameset】//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-【strict| transitional | frameset】.dtd">
+
+
+
+
+
+
+
+
+
+
++ 浏览器在显示 HTML 时，会省略源代码中多余的空白字符（空格或回车等）。
++ 使用 pre 标签对空行和空格进行控制。(浏览器在显示 会显示空格或回车换行)
+
++  <sub> 下标 </sub> 和  <sup> 上标 </sup>
++  <code>Computer code</code>
++  <kbd>Keyboard input</kbd>
++  <tt>Teletype text</tt>
++  <samp>Sample text</samp>
++  <var>Computer variable</var>
++  <address>
+	Written by <a 	href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
+	Visit us at:<br>
+	Example.com<br>
+	Box 564, Disneyland<br>
+	USA
+	</address>
+
++ <abbr title="etcetera">etc.(这是缩写)</abbr>
+
++ <acronym title="World Wide Web">WWW(这是缩写)</acronym>
++ <p dir="rtl">This paragraph will go left-to-right.</p>  
++ <q>标记一个短的引用</q>
++ <del>删除字</del>
++ <ins>添加字</ins>
++ <blockquote cite="http://www.worldwildlife.org/who/index.html">
+这是定义摘自另一个源的块引用。
+浏览器通常会对 `blockquote` 元素进行缩进。
+cite	URL	规定引用的来源
+</blockquote>
++ <cite> 标签来定义作品的标题：</cite>
++ <dfn>定义一个项目</dfn>
++ ？？？？？Note: 注释：请始终将正斜杠添加到子文件夹。假如这样书写链接：href="http://www.w3cschool.cc/html"，就会向服务器产生两次 HTTP 请求。这是因为服务器会添加正斜杠到这个地址，然后创建一个新的请求，就像这样：href="http://www.w3cschool.cc/html/"。
+
+
+
+
+

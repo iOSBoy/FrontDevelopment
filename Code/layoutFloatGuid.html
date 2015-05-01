@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>div 制作田字格</title>
+	<style type="text/css">
+	#container{
+		width: 200px;
+		/*overflow: hidden;*/
+		/*overflow: auto;*/
+	/*
+	清除浮动 方法一;
+	*/
+		/*height: 200px;*/
+	}
+
+	#lu{
+		background-color: black;
+	}
+	#ru{
+		background-color: red;
+	}
+	#ld{
+		background-color: pink;
+	}
+	#rd{
+		background-color: blue;
+	}
+	#container div{
+		float: left;
+		width: 100px;
+		height: 100px;
+	}
+
+	#bottom{
+		height: 100px;
+		background-color: orange;
+	}
+	.clear{
+		clear: both;
+	}
+
+	</style>
+</head>
+<body>
+<div id="container">
+	<div id="lu" ></div>
+	<div id="ru" ></div>
+	<div id="ld" ></div>
+	<div id="rd" ></div>
+</div>
+<!--
+	清除浮动 方法一;
+ <div class="clear"></div> 
+ -->
+
+<div id="bottom"></div>
+</body>
+</html>

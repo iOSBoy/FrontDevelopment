@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>使用div+css 对网页进行布局</title>
+
+<!-- 
+
+1.CSS有几种引入方式（4种）
+第一:链接式，在head部分加入<link  rel="stylesheet" type="text/css" href="my.css"/>,引入外部的 CSS文件。 link 引用的CSS会在页面被加载的时候同时加载
+第二:嵌入式，在head部分加入
+          <style type="text/css">
+          div{margin: 0;padding: 0;border:1px red solid;}
+          </style>
+第三，行内式，直接在页面的标签里加　<div style="border:1px red solid;">测试信息</div>
+第四：导入式
+          <style type="text/css">
+          @import url(my.css);//导入式会在整个网页装载完后再装载CSS文件
+          </style>
+ -->
+
+ <style type="text/css">
+ 
+ div{
+ 	height: 200px;
+ }
+
+ #header{
+ 	background-color: blue;
+ }
+
+ #main{
+ 	background-color: yellow;
+ }
+ #footer{
+ 	background-color: gray;
+ }
+
+ </style>
+</head>
+
+<body>
+	<div id="header"></div>
+	<div id="main"></div>
+	<div id="footer"></div>
+</body>
+</html>
