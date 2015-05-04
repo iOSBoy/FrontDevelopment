@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	div{
+		width: 50px;
+		height: 50px;
+	}
+
+	p{
+		width: 20px;
+		height: 20px;
+	}
+
+		div>p{
+		background: yellow;
+	}
+
+	div+p{
+		background: black;
+	}
+
+	.ddd p:first-letter{color: red;}
+
+	div[class=ddd]{
+		color: blue;
+	}
+	</style>
+</head>
+<body>
+	<!-- 分组选择器 span,div,p {}-->
+	<div></div> <p></p> <span></span>
+
+	<!-- 子元素选择器(以大于号分隔） div>p{}-->
+	<div class="ddd">
+	<p>hello</p>
+	<p></p>
+	<p></p>
+	</div>
+	<!-- 相邻兄弟选择器（以加号分隔） div+p{}-->
+	<div></div>
+	<p></p>
+	<!-- 普通兄弟选择器（以破折号分隔） div~p{}-->
+	<div>
+	</div>
+	<p></p>
+	<p></p>
+	<p></p>
+</body>
+</html>
