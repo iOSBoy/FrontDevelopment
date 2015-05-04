@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>margin 重叠问题</title>
+	<style type="text/css">
+	#test1{
+		height: 100px;
+		background: red;
+		margin-bottom: 80px;
+	}
+
+	#test2{
+		height: 100px;
+		background: blue;
+		margin-top: 50px;
+	}
+
+	#outer{
+		width: 200px;
+		height: 200px;
+		background: yellow;
+		margin: 20px;
+
+	}
+
+	#inner{
+		width: 100px;
+		height: 100px;
+		background: red;
+		margin: 50px;
+	}
+	</style>
+</head>
+<body>
+<div id="test1">
+	
+	普通元素【没有浮动】margin会发生重叠  重叠后去最大值
+
+</div>
+<div id="test2"></div>
+
+<div id="outer">
+	
+	<div id="inner">
+		
+	</div>
+</div>
+
+</body>
+</html>
