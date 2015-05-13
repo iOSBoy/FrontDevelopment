@@ -1,0 +1,165 @@
+#container{
+	margin:  0 auto;
+	width: 1002px;
+}
+.cls{
+	width: 0px;
+	height: 0px;
+	clear: both;
+}
+#header{
+	background: gray url(../images/top_bg.jpg);
+	height: 128px;
+}
+
+#nav li{
+	float:left;
+	margin-right: 1px;
+}
+
+#nav a{
+	font-size: 16px;
+	line-height: 40px;
+	font-family: '微软雅黑';
+	color: #363636;
+	display: block;
+	width: 90px;
+	height: 37px;
+	text-align: center;
+			/*vertical-align: middle;  调查*/
+}
+#nav a:hover{
+	background: url(../images/nav_on.gif);
+}
+#top_banner{
+	margin: 6px 0;
+}
+#lsider{
+	height: 480px;
+	width: 694px;
+	background: white;
+	float: left;
+	border: 1px solid #eee;
+	border-top: none;
+}
+
+.subtitle{
+	height: 37px;
+	background: gray url(../images/index_main_top_bg.gif)
+}
+.subtitle img{
+	float: left;
+	margin: 5px 0 0 10px;
+}
+.subtitle h1{
+	float: left;
+	margin-left: 10px;
+	font-size: 16px;
+	line-height: 37px;
+}
+
+.subtitle a{
+	float: right;
+	font-size: 12px;
+	line-height: 37px;
+	color: gray;
+}
+
+.fouthItem{
+	width: 326px;
+	height: 200px;
+	margin: 10px;
+	float: left;
+	background: #eee;
+
+}
+.fouthItem h2{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+.fouthItem img{
+	float: left;
+	margin-left: 10px;
+	padding: 6px;
+	background: white;
+}
+.fouthItem ul{
+	float: left;
+	margin-left: 10px;
+}
+.fouthItem li{
+	background: url(../images/service_intro_bg.gif) no-repeat;
+	padding-left: 15px;
+	height: 20px;
+
+}
+
+.fouthItem a{
+	color: gray;
+}
+.fouthItem a:hover{
+	text-decoration: underline;
+}
+#rsider{
+	height: 480px;
+	width: 294px;
+	float: right;
+}
+
+#art {
+	background: #eee;
+	margin-top: 1px;
+}
+
+#art li{
+	
+}
+
+#art a{
+	color: gray;
+	display: block;
+	background: url(../images/article_head.gif) no-repeat;
+	height: 29px;
+	line-height: 30px;
+	padding-left: 25px;
+}
+#art a:hover{
+	background: url(../images/article_on_bg.gif);
+	color: orange;
+}
+
+#contact{
+	margin-top: 1px;
+	height: 249px;
+	background: #eee;
+}
+
+#footer{
+	height: 120px;
+}
+
+#footer ul{
+	height: 40px;
+	background: #eee;
+}
+
+#footer li{
+	float: left;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+#footer li:first-child{
+	padding-left: 20px;
+}
+
+#footer a{
+	color: gray;
+}
+
+#footer address{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
